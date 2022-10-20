@@ -1,5 +1,6 @@
  if (confirm("czy lubisz pizze")) {
-   alert("Wybrano opcję: jaką?");
-   } else {
+   var imie = prompt("jaką?", "margaritte"); 
+    document.write("Twoja pizza to: "+imie);
+      } else {
    alert("Wybrano opcję: szkoda");
  } 
