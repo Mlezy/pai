@@ -3,7 +3,6 @@
 
 document.write("wysokość="+wysokosc+"<br/>");
 document.write("szerokość="+szerokosc+"<br/>");
-
 for (a = 1; a <= wysokosc; ++a){
   for (count = 1; count <= szerokosc; ++count){
         document.write("*"); 
